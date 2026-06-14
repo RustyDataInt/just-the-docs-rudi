@@ -28,16 +28,16 @@ function initNav() {
   jtd.addEvent(document, 'click', function(e){
     var target = e.target;
 
-    // MDI addition to capture external web links into desktop app
-    if(window.mdiElectron && 
-      window.mdiElectron.frameworkToElectron &&
+    // RuDI addition to capture external web links into desktop app
+    if(window.rudiElectron && 
+      window.rudiElectron.frameworkToElectron &&
       target.tagName.toLowerCase() === 'a' && 
       target.href && 
       target.href.startsWith("http") &&
       !target.href.startsWith(jtdSiteOrigin)
     ){
       e.preventDefault();
-      window.mdiElectron.frameworkToElectron("externalLink", {
+      window.rudiElectron.frameworkToElectron("externalLink", {
         url: target.href,
         target: "jtdExternalLink" // ignore any target claimed by the link
       });

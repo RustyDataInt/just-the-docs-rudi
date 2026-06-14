@@ -9,7 +9,7 @@ code {
   background-color: $code-background-color;
   border: $border $border-color;
   border-radius: $border-radius;
-  color: #222;                    // MDI CHANGE
+  color: #222;                    // RuDI CHANGE
 }
 
 // Avoid appearance of dark border around visited code links in Safari
@@ -52,8 +52,8 @@ div.highlighter-rouge {
   overflow-x: auto;
   background-color: $code-background-color;
   border-radius: $border-radius;
-  box-shadow: 2px 2px 5px #888;              // MDI CHANGE
-  border: 1px solid #ddd;                    // MDI CHANGE
+  box-shadow: 2px 2px 5px #888;              // RuDI CHANGE
+  border: 1px solid #ddd;                    // RuDI CHANGE
   -webkit-overflow-scrolling: touch;
 
   div.highlight,
@@ -127,7 +127,7 @@ figure.highlight {
   color: #93a1a1;
 } // literal //
 .highlight .n {
-  color: #222; //#93a1a1; // MDI CHANGE
+  color: #222; //#93a1a1; // RuDI CHANGE
 } // name //
 .highlight .o {
   color: #859900;
@@ -210,7 +210,7 @@ figure.highlight {
   color: #2aa198;
 } // literal.string //
 .highlight .na {
-  color: #222; //#555; // MDI CHANGE
+  color: #222; //#555; // RuDI CHANGE
 } // name.attribute //
 .highlight .nb {
   color: #b58900;
@@ -234,13 +234,13 @@ figure.highlight {
   color: #268bd2;
 } // name.function //
 .highlight .nl {
-  color: #222; //#555; // MDI CHANGE
+  color: #222; //#555; // RuDI CHANGE
 } // name.label //
 .highlight .nn {
   color: #93a1a1;
 } // name.namespace //
 .highlight .nx {
-  color: #222; //#555; // MDI CHANGE
+  color: #222; //#555; // RuDI CHANGE
 } // name.other //
 .highlight .py {
   color: #93a1a1;

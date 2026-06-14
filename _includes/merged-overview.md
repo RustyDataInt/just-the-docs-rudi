@@ -1,8 +1,8 @@
-<!--- only MDI project maintainers should edit this file -->
+<!--- only RuDI project maintainers should edit this file -->
 ## {{ site.title }}
 
-{% include mdi-project-overview.md %}
+{% include rudi-project-overview.md %}
 
 {% include repository-overview.md %}
 
-{% include mdi-project-documentation.md %}
+{% include rudi-project-documentation.md %}

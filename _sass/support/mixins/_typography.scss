@@ -59,11 +59,6 @@
 @mixin fs-8 {
   font-size: $font-size-8 !important;
   line-height: $body-heading-line-height;
-
-  // MDI edit, TOC headings too big
-  // @include mq(sm) {
-  //   font-size: $font-size-9 !important;
-  // }
 }
 
 @mixin fs-9 {
